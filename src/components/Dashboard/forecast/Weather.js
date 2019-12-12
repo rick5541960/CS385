@@ -3,7 +3,7 @@ import './App.css';
 import cityList from './cities_full.json';
 import { findDOMNode } from 'react-dom';
 import Daily from './daily';
-import logo from './fanart.jpg';
+//import logo from './fanart.jpg';
 
 class Weather extends Component {
 	
@@ -122,7 +122,7 @@ class Weather extends Component {
 			</div>
 
 			<div ref = 'display' style = {{display: this.state.switch?'block':'none'}}>
-				<img src = {logo} class = 'col-lg-6 col-sm-4'/>
+				{/*<img src = {logo} class = 'col-lg-6 col-sm-4'/>*/}
 				<p class='lead'>DEFINITELY NOT SPONSORED</p>
 				
 				<h4 class = 'lead'><b>Area: {this.state.areaName}</b></h4>
